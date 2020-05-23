@@ -29,29 +29,38 @@ class ScrappOlx:
         return self.hrefs_to_categorys
     
     def get_info_category(self):
-        # hrefs = self.parse()
-        hrefs = ['https://www.olx.ua/obmen-barter/',]
+        hrefs = self.parse()
         for item in hrefs:
+            self.first_page = True
             self.driver.get(item)
-            self.max_page = self.driver.find_elements(By.XPATH, '//span[contains(@class, "item fleft")][last()]')
-            all_records_on_page = self.driver.find_elements(
-                By.XPATH, '//a[contains(@class, "detailsLink")]'
-                )
-            href_to_records = [
-                item.get_attribute('href') for item in all_records_on_page
-            ]
-            yield get_info_record(href_to_records)
+            self.max_page = self.driver.find_elements(
+                By.XPATH, '//span[contains(@class, "item fleft")][last()]'
+                )[0].text
+            for number in range(1, int(self.max_page)+1):
+                if not self.first_page:
+                    self.new_url = item+f'?page={number}'
+                    print(f'self.new_url: {self.new_url}')
+                    self.driver.get(self.new_url)
+                all_records_on_page = self.driver.find_elements(
+                    By.XPATH, '//a[contains(@class, "detailsLink")]'
+                    )
+                href_to_records = [
+                    item.get_attribute('href') for item in all_records_on_page
+                ]
+                self.first_page = False
+                self.get_info_record(href_to_records)
 
-    def get_info_record(self):
-        # hrefs = self.get_info_category()
-        hrefs = ['https://www.olx.ua/obyavlenie/vaz-2105-IDH8yEV.html#ad1cf4da5b']
+    def get_info_record(self, hrefs):
         for item in hrefs:
             self.driver.get(item)
             info = self.driver.find_elements(
                 By.XPATH, '//a[contains(@class, "link nowrap")]/span'
                 )
             city = info[0].text.split(' ')[-1]
-            record_categoty = f'{info[1].text.replace(city, "")} --> {info[2].text.replace(city, "")}'
+            try:
+                record_categoty = f'{info[1].text.replace(city, "")} --> {info[2].text.replace(city, "")}'
+            except:
+                record_categoty = f'{info[1].text.replace(city, "")}'
             title = self.driver.find_element(
                 By.XPATH, '//div[contains(@class, "offer-titlebox")]/h1'
                 ).text
@@ -76,16 +85,20 @@ class ScrappOlx:
                 ).click()
             except Exception as err:
                 print('ERROR: {}'.format(err.args))
-            self.wait.until(EC.element_to_be_clickable((
-                By.XPATH, '//div[contains(@class, "contact-button")]'
-            ))).click()
-            phone = self.driver.find_element(
-                By.XPATH, '//strong[contains(@class, "xx-large")]'
-                ).text
+            try:
+                self.wait.until(EC.element_to_be_clickable((
+                    By.XPATH, '//div[contains(@class, "contact-button")]'
+                ))).click()
+                phone = self.driver.find_element(
+                    By.XPATH, '//strong[contains(@class, "xx-large")]'
+                    ).text
+            except Exception as err:
+                phone=''
+                print(f'Error getting phone: {err.args}')
             image_href = self.driver.find_element(
                 By.XPATH, '//div[contains(@id, "descImage")]/img'
             ).get_attribute('src')
             print(
                 f'{city}\n{record_categoty}\n{title}\n{price}\n{description}\n{date_publish}\n{views}\n{number_record}\n{name_user}\n{phone}\n{image_href}'
             )
-t = ScrappOlx().get_info_record()
+t = ScrappOlx().get_info_category()
