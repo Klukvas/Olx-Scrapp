@@ -1,0 +1,30 @@
+successfully: 24/05  16:37:57: Database successfully created
+successfully: 24/05  16:37:57: Database successfully created
+start: 24/05  16:38:06: Pareser started ad https://www.olx.ua/
+start: 24/05  16:38:06: Pareser started ad https://www.olx.ua/
+WARNING: 24/05  16:38:14: Can not getting phone: ("name 're' is not defined",)
+WARNING: 24/05  16:38:14: Can not getting phone: ("name 're' is not defined",)
+WARNING: 24/05  16:38:16: Can not getting phone: ("name 're' is not defined",)
+WARNING: 24/05  16:38:16: Can not getting phone: ("name 're' is not defined",)
+WARNING: 24/05  16:38:19: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  16:38:19: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  16:39:19: Can not getting phone: ('', None, None)
+WARNING: 24/05  16:39:19: Can not getting phone: ('', None, None)
+WARNING: 24/05  16:39:19: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  16:39:19: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+start: 24/05  16:42:39: Pareser started ad https://www.olx.ua/
+start: 24/05  16:42:39: Pareser started ad https://www.olx.ua/
+WARNING: 24/05  16:43:47: Can not get image href: ('Unable to locate element: //div[contains(@id, "descImage")]/img', None, None)
+WARNING: 24/05  16:43:47: Can not get image href: ('Unable to locate element: //div[contains(@id, "descImage")]/img', None, None)
+ERROR: 24/05  16:43:47: Record {number_record} nont added to DB {err.args}
+ERROR: 24/05  16:43:47: Record {number_record} nont added to DB {err.args}
+WARNING: 24/05  16:43:48: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  16:43:48: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  16:44:48: Can not get image href: ('Unable to locate element: //div[contains(@id, "descImage")]/img', None, None)
+WARNING: 24/05  16:44:48: Can not get image href: ('Unable to locate element: //div[contains(@id, "descImage")]/img', None, None)
+ERROR: 24/05  16:44:48: Record {number_record} nont added to DB {err.args}
+ERROR: 24/05  16:44:48: Record {number_record} nont added to DB {err.args}
+WARNING: 24/05  16:44:51: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  16:44:51: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  16:44:52: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  16:44:52: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)

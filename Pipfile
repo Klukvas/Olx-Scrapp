@@ -8,6 +8,9 @@ verify_ssl = true
 [packages]
 selenium = "*"
 python-dotenv = "==0.9.1"
+sqlalchemy = "*"
+pymysql = "*"
+sqlalchemy-utils = "*"
 
 [requires]
 python_version = "3.8"

@@ -2,15 +2,21 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.firefox.options import Options
+from models import DataBaseClient, ModelRecord
 
 from settings import path_to_driver, start_url
 from Logging import Logger
 
+from  re import match
+
 class ScrappOlx:
     def __init__(self):
         self.log = Logger().custom_logger()
-        
-        self.driver = webdriver.Firefox(executable_path=path_to_driver)
+        self.db_client = DataBaseClient()
+        opts = Options()
+        opts.log.level = "fatal"
+        self.driver = webdriver.Firefox(executable_path=path_to_driver, options=opts)
         self.driver.implicitly_wait(60)
         self.wait = WebDriverWait(self.driver, 60)
 
@@ -33,6 +39,7 @@ class ScrappOlx:
         for item in hrefs:
             self.first_page = True
             self.driver.get(item)
+            self.log.info(f'Getting info from category {item}')
             self.max_page = self.driver.find_elements(
                 By.XPATH, '//span[contains(@class, "item fleft")][last()]'
                 )[0].text
@@ -52,53 +59,93 @@ class ScrappOlx:
 
     def get_info_record(self, hrefs):
         for item in hrefs:
+            self.log.info(f'Start parse record\n{item}')
             self.driver.get(item)
-            info = self.driver.find_elements(
-                By.XPATH, '//a[contains(@class, "link nowrap")]/span'
-                )
-            city = info[0].text.split(' ')[-1]
             try:
-                record_categoty = f'{info[1].text.replace(city, "")} --> {info[2].text.replace(city, "")}'
+                no_active = driver.find_element(
+                    By.XPATH, '//h3/strong'
+                ).text
+                is_record_active = False
             except:
-                record_categoty = f'{info[1].text.replace(city, "")}'
-            title = self.driver.find_element(
-                By.XPATH, '//div[contains(@class, "offer-titlebox")]/h1'
-                ).text
-            price = self.driver.find_element(
-                By.XPATH, '//div[contains(@class, "pricelabel")]'
-                ).text
-            description = self.driver.find_element(
-                By.XPATH, '//div[contains(@id, "textContent")]'
-                ).text
-            bottombar_items = self.driver.find_elements(
-                By.XPATH, '//div[contains(@id, "offerbottombar")]/ul/li//strong'
-                )
-            date_publish = bottombar_items[0].text.replace('в', '')
-            views = bottombar_items[1].text
-            number_record = bottombar_items[2].text
-            name_user = self.driver.find_element(
-                By.XPATH, '//div[contains(@class, "offer-user__actions")]/h4'
-                ).text
-            try:
-                self.driver.find_element(
-                    By.XPATH, '//div[contains(@id, "cookiesBar")]/button[contains(@class, "cookiesBarClose")]'
-                ).click()
-            except Exception as err:
-                print('ERROR: {}'.format(err.args))
-            try:
-                self.wait.until(EC.element_to_be_clickable((
-                    By.XPATH, '//div[contains(@class, "contact-button")]'
-                ))).click()
-                phone = self.driver.find_element(
-                    By.XPATH, '//strong[contains(@class, "xx-large")]'
+                is_record_active = True
+            if is_record_active:
+                info = self.driver.find_elements(
+                    By.XPATH, '//a[contains(@class, "link nowrap")]/span'
+                    )
+                city = info[0].text.split(' ')[-1]
+                try:
+                    record_categoty = f'{info[1].text.replace(city, "")} --> {info[2].text.replace(city, "")}'
+                except:
+                    record_categoty = f'{info[1].text.replace(city, "")}'
+                title = self.driver.find_element(
+                    By.XPATH, '//div[contains(@class, "offer-titlebox")]/h1'
                     ).text
-            except Exception as err:
-                phone=''
-                print(f'Error getting phone: {err.args}')
-            image_href = self.driver.find_element(
-                By.XPATH, '//div[contains(@id, "descImage")]/img'
-            ).get_attribute('src')
-            print(
-                f'{city}\n{record_categoty}\n{title}\n{price}\n{description}\n{date_publish}\n{views}\n{number_record}\n{name_user}\n{phone}\n{image_href}'
-            )
+                price = self.driver.find_element(
+                    By.XPATH, '//div[contains(@class, "pricelabel")]'
+                    ).text
+
+                description = self.driver.find_element(
+                    By.XPATH, '//div[contains(@id, "textContent")]'
+                    ).text
+
+                bottombar_items = self.driver.find_elements(
+                    By.XPATH, '//div[contains(@id, "offerbottombar")]/ul/li//strong'
+                    )
+                date_publish = bottombar_items[0].text.replace('в', '')
+                views = bottombar_items[1].text
+                number_record = bottombar_items[2].text
+                name_user = self.driver.find_element(
+                    By.XPATH, '//div[contains(@class, "offer-user__actions")]/h4'
+                    ).text
+
+                try:
+                    self.driver.find_element(
+                        By.XPATH, '//div[contains(@id, "cookiesBar")]/button[contains(@class, "cookiesBarClose")]'
+                    ).click()
+                except Exception as err:
+                    self.log.warning(f'{err.args}')
+                try:
+                    self.wait.until(EC.element_to_be_clickable((
+                        By.XPATH, '//div[contains(@class, "contact-button link-phone")]'
+                    ))).click()
+                    phone = self.driver.find_element(
+                        By.XPATH, '//strong[contains(@class, "xx-large")]'
+                        ).text
+                    test = match(r'\d+', phone)
+                    if not test:
+                        self.wait.until(EC.element_to_be_clickable((
+                        By.XPATH, '//div[contains(@class, "contact-button link-phone")]'
+                        ))).click()
+                        phone = self.driver.find_element(
+                            By.XPATH, '//strong[contains(@class, "xx-large")]'
+                        ).text
+                except Exception as err:
+                    phone=''
+                    self.log.warning(f'Can not getting phone: {err.args}')
+                try:
+                    image_href = self.driver.find_element(
+                        By.XPATH, '//div[contains(@id, "descImage")]/img'
+                    ).get_attribute('src')
+                except Exception as err:
+                    self.log.warning(f'Can not get image href: {err.args}')
+                record_url = self.driver.current_url
+                try:
+                    record = ModelRecord(
+                        number_record = number_record,
+                        record_categoty = record_categoty,
+                        title = title,
+                        price = price,
+                        description = description,
+                        date_publish = date_publish,
+                        views = views,
+                        name_user = name_user,
+                        phone = phone,
+                        image_href = image_href,
+                        record_url = record_url
+                    ) 
+                    self.db_client.session.merge(record)
+                    self.db_client.session.commit()
+                    self.log.info(f'Record {number_record} added to DB')
+                except Exception as err:
+                    self.log.error('Record {number_record} nont added to DB {err.args}')
 t = ScrappOlx().get_info_category()

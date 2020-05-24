@@ -1,2 +1,4 @@
 .venv
 .env
+kill_tasks.bat
+test.py
