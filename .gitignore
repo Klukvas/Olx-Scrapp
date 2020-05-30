@@ -1,6 +1,6 @@
 .venv
 .env
-/kill_tasks.bat
-/test.py
-/geckodriver.log
+*.bat
+test.*
+.log
 
