@@ -28,3 +28,168 @@ WARNING: 24/05  16:44:51: ('Element <button class="cookie-close abs cookiesBarCl
 WARNING: 24/05  16:44:51: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
 WARNING: 24/05  16:44:52: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
 WARNING: 24/05  16:44:52: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+start: 24/05  21:17:34: Pareser started ad https://www.olx.ua/
+start: 24/05  21:17:34: Pareser started ad https://www.olx.ua/
+WARNING: 24/05  21:17:41: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I56rJ\', \'id_raw\': \'651375207\'} atClickTracking contact-a"> is not clickable at point (999,711) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:41: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I56rJ\', \'id_raw\': \'651375207\'} atClickTracking contact-a"> is not clickable at point (999,711) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:41: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I56rJ\', \'id_raw\': \'651375207\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:41: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I56rJ\', \'id_raw\': \'651375207\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:43: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'HJxqu\', \'id_raw\': \'646235702\'} atClickTracking contact-a"> is not clickable at point (999,711) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:43: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'HJxqu\', \'id_raw\': \'646235702\'} atClickTracking contact-a"> is not clickable at point (999,711) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:44: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'HJxqu\', \'id_raw\': \'646235702\'} atClickTracking contact-a"> is not clickable at point (999,711) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:44: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'HJxqu\', \'id_raw\': \'646235702\'} atClickTracking contact-a"> is not clickable at point (999,711) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:46: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'F8EYe\', \'id_raw\': \'607893894\'} atClickTracking contact-a"> is not clickable at point (999,711) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:46: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'F8EYe\', \'id_raw\': \'607893894\'} atClickTracking contact-a"> is not clickable at point (999,711) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:46: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'F8EYe\', \'id_raw\': \'607893894\'} atClickTracking contact-a"> is not clickable at point (999,711) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:46: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'F8EYe\', \'id_raw\': \'607893894\'} atClickTracking contact-a"> is not clickable at point (999,711) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:48: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'HjvGU\', \'id_raw\': \'640036348\'} atClickTracking contact-a"> is not clickable at point (999,694) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:48: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'HjvGU\', \'id_raw\': \'640036348\'} atClickTracking contact-a"> is not clickable at point (999,694) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:48: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'HjvGU\', \'id_raw\': \'640036348\'} atClickTracking contact-a"> is not clickable at point (999,695) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:48: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'HjvGU\', \'id_raw\': \'640036348\'} atClickTracking contact-a"> is not clickable at point (999,695) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:50: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'DxuG6\', \'id_raw\': \'584259858\'} atClickTracking contact-a"> is not clickable at point (999,694) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:50: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'DxuG6\', \'id_raw\': \'584259858\'} atClickTracking contact-a"> is not clickable at point (999,694) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:51: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'DxuG6\', \'id_raw\': \'584259858\'} atClickTracking contact-a"> is not clickable at point (999,694) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:51: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'DxuG6\', \'id_raw\': \'584259858\'} atClickTracking contact-a"> is not clickable at point (999,694) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:52: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,636) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:52: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,636) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:53: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,711) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:53: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,711) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:53: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:53: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:53: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:53: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:53: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:53: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:53: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:53: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:53: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:53: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+WARNING: 24/05  21:17:54: Can not getting phone: ('Element <div class="contact-button link-phone {\'path\':\'phone\', \'id\':\'I8yJC\', \'id_raw\': \'652198932\'} atClickTracking contact-a"> is not clickable at point (999,712) because another element <div id="cookiesBar" class="topinfo rel"> obscures it', None, None)
+start: 24/05  21:19:02: Pareser started ad https://www.olx.ua/
+start: 24/05  21:19:02: Pareser started ad https://www.olx.ua/
+WARNING: 24/05  21:19:12: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  21:19:12: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  21:19:15: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  21:19:15: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  21:19:16: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  21:19:16: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  21:19:21: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  21:19:21: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  21:19:21: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  21:19:21: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  21:19:23: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  21:19:23: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  21:19:24: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+WARNING: 24/05  21:19:24: ('Element <button class="cookie-close abs cookiesBarClose"> could not be scrolled into view', None, None)
+start: 24/05  21:21:05: Pareser started ad https://www.olx.ua/
+start: 24/05  21:21:05: Pareser started ad https://www.olx.ua/
+WARNING: 24/05  21:21:13: cookiesBar already closed
+WARNING: 24/05  21:21:13: cookiesBar already closed
+WARNING: 24/05  21:21:16: cookiesBar already closed
+WARNING: 24/05  21:21:16: cookiesBar already closed
+WARNING: 24/05  21:21:17: cookiesBar already closed
+WARNING: 24/05  21:21:17: cookiesBar already closed
+WARNING: 24/05  21:21:19: cookiesBar already closed
+WARNING: 24/05  21:21:19: cookiesBar already closed
+WARNING: 24/05  21:21:20: cookiesBar already closed
+WARNING: 24/05  21:21:20: cookiesBar already closed
+WARNING: 24/05  21:21:22: cookiesBar already closed
+WARNING: 24/05  21:21:22: cookiesBar already closed
+WARNING: 24/05  21:21:23: cookiesBar already closed
+WARNING: 24/05  21:21:23: cookiesBar already closed
+WARNING: 24/05  21:21:26: cookiesBar already closed
+WARNING: 24/05  21:21:26: cookiesBar already closed
+WARNING: 24/05  21:21:27: cookiesBar already closed
+WARNING: 24/05  21:21:27: cookiesBar already closed
+WARNING: 24/05  21:21:29: cookiesBar already closed
+WARNING: 24/05  21:21:29: cookiesBar already closed
+WARNING: 24/05  21:21:31: cookiesBar already closed
+WARNING: 24/05  21:21:31: cookiesBar already closed
+WARNING: 24/05  21:21:34: cookiesBar already closed
+WARNING: 24/05  21:21:34: cookiesBar already closed
+WARNING: 24/05  21:21:35: cookiesBar already closed
+WARNING: 24/05  21:21:35: cookiesBar already closed
+WARNING: 24/05  21:21:38: cookiesBar already closed
+WARNING: 24/05  21:21:38: cookiesBar already closed
+WARNING: 24/05  21:21:39: cookiesBar already closed
+WARNING: 24/05  21:21:39: cookiesBar already closed
+WARNING: 24/05  21:21:41: cookiesBar already closed
+WARNING: 24/05  21:21:41: cookiesBar already closed
+WARNING: 24/05  21:21:43: cookiesBar already closed
+WARNING: 24/05  21:21:43: cookiesBar already closed
+WARNING: 24/05  21:21:43: cookiesBar already closed
+WARNING: 24/05  21:21:43: cookiesBar already closed
+WARNING: 24/05  21:21:44: cookiesBar already closed
+WARNING: 24/05  21:21:44: cookiesBar already closed
+WARNING: 24/05  21:21:47: cookiesBar already closed
+WARNING: 24/05  21:21:47: cookiesBar already closed
+WARNING: 24/05  21:21:48: cookiesBar already closed
+WARNING: 24/05  21:21:48: cookiesBar already closed
+WARNING: 24/05  21:21:52: cookiesBar already closed
+WARNING: 24/05  21:21:52: cookiesBar already closed
+WARNING: 24/05  21:21:53: cookiesBar already closed
+WARNING: 24/05  21:21:53: cookiesBar already closed
+WARNING: 24/05  21:21:53: cookiesBar already closed
+WARNING: 24/05  21:21:53: cookiesBar already closed
+WARNING: 24/05  21:21:54: cookiesBar already closed
+WARNING: 24/05  21:21:54: cookiesBar already closed
+WARNING: 24/05  21:21:54: cookiesBar already closed
+WARNING: 24/05  21:21:54: cookiesBar already closed
+WARNING: 24/05  21:21:57: cookiesBar already closed
+WARNING: 24/05  21:21:57: cookiesBar already closed
+WARNING: 24/05  21:21:58: cookiesBar already closed
+WARNING: 24/05  21:21:58: cookiesBar already closed
+WARNING: 24/05  21:21:58: cookiesBar already closed
+WARNING: 24/05  21:21:58: cookiesBar already closed
+WARNING: 24/05  21:22:01: cookiesBar already closed
+WARNING: 24/05  21:22:01: cookiesBar already closed
+WARNING: 24/05  21:22:02: cookiesBar already closed
+WARNING: 24/05  21:22:02: cookiesBar already closed
+WARNING: 24/05  21:22:03: cookiesBar already closed
+WARNING: 24/05  21:22:03: cookiesBar already closed
+WARNING: 24/05  21:22:06: cookiesBar already closed
+WARNING: 24/05  21:22:06: cookiesBar already closed
+WARNING: 24/05  21:22:12: cookiesBar already closed
+WARNING: 24/05  21:22:12: cookiesBar already closed
+WARNING: 24/05  21:22:13: cookiesBar already closed
+WARNING: 24/05  21:22:13: cookiesBar already closed
+WARNING: 24/05  21:22:13: cookiesBar already closed
+WARNING: 24/05  21:22:13: cookiesBar already closed
+WARNING: 24/05  21:22:13: cookiesBar already closed
+WARNING: 24/05  21:22:13: cookiesBar already closed
+WARNING: 24/05  21:22:16: cookiesBar already closed
+WARNING: 24/05  21:22:16: cookiesBar already closed
+start: 24/05  21:25:17: Pareser started ad https://www.olx.ua/
+start: 24/05  21:25:17: Pareser started ad https://www.olx.ua/
+start: 24/05  21:40:05: Pareser started ad https://www.olx.ua/
+start: 24/05  21:40:05: Pareser started ad https://www.olx.ua/
+start: 31/05  00:56:42: Pareser started ad https://www.olx.ua/
+start: 31/05  00:56:42: Pareser started ad https://www.olx.ua/
+WARNING: 31/05  00:57:58: No phone on record: https://www.olx.ua/obyavlenie/nabor-zhiletok-zhiletki-IDFK77X.html#f75cb84c20
+WARNING: 31/05  00:57:58: No phone on record: https://www.olx.ua/obyavlenie/nabor-zhiletok-zhiletki-IDFK77X.html#f75cb84c20
+start: 31/05  01:03:30: Pareser started ad https://www.olx.ua/: 8716: MainProcess
+start: 31/05  01:03:30: Pareser started ad https://www.olx.ua/: 8716: MainProcess
+WARNING: 31/05  01:04:38: No phone on record: https://www.olx.ua/obyavlenie/kolyaska-3-v1-tutis-trio-s-avtokreslom-IDH9heO.html?sd=1#f75cb84c20: 8716: MainProcess
+WARNING: 31/05  01:04:38: No phone on record: https://www.olx.ua/obyavlenie/kolyaska-3-v1-tutis-trio-s-avtokreslom-IDH9heO.html?sd=1#f75cb84c20: 8716: MainProcess
+WARNING: 31/05  01:06:19: No phone on record: https://www.olx.ua/obyavlenie/razvivayuschiy-kovrik-IDIcLtv.html?sd=1#f75cb84c20: 8716: MainProcess
+WARNING: 31/05  01:06:19: No phone on record: https://www.olx.ua/obyavlenie/razvivayuschiy-kovrik-IDIcLtv.html?sd=1#f75cb84c20: 8716: MainProcess
+WARNING: 31/05  01:07:29: No phone on record: https://www.olx.ua/obyavlenie/podushka-dlya-kormleniya-dlya-beremennyh-yaroslav-d75-IDHayvk.html#f75cb84c20: 8716: MainProcess
+WARNING: 31/05  01:07:29: No phone on record: https://www.olx.ua/obyavlenie/podushka-dlya-kormleniya-dlya-beremennyh-yaroslav-d75-IDHayvk.html#f75cb84c20: 8716: MainProcess
+start: 31/05  01:08:46: Pareser started ad https://www.olx.ua/: 4848: MainProcess
+WARNING: 31/05  01:09:58: No phone on record: https://www.olx.ua/obyavlenie/bosonozhki-kozha-clibee-IDGTfzM.html?sd=1#f75cb84c20: 4848: MainProcess
+WARNING: 31/05  01:11:11: No phone on record: https://www.olx.ua/obyavlenie/shtanishki-IDHMRKS.html#f75cb84c20: 4848: MainProcess
